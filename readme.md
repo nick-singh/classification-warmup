@@ -1,5 +1,5 @@
-# Classification Tasks 
-
+# New Document# Classification Tasks
+  
 
 1. Import the necessary data manipulation and visualization libraries
 ```
@@ -28,22 +28,26 @@
 4. Load the data (in this case we have separate datasets for training and testing)
 5. Analyze the data to get a feel of the data
 6. Write a block of code or function (for both training and testing data) to:
-	1. Get all the columns from the dataset
-	2. Determine if the values in a column is numeric
-	3. Clean all numeric columns 
-	4. Get a list of all categorical columns with NAN values
+        1. Get all the columns from the dataset
+        2. Determine if the values in a column is numeric
+        3. Clean all numeric columns
+        4. Get a list of all categorical columns with NAN values
 7. Get a count of all the NAN values in categorical columns
 8. Write a function or a block of code (for both training and testing data) to:
-	1. Use the categorical columns to get the most most occurring 
-	2. Create a dictionary with the column and associated most occurring category
+        1. Use the categorical columns to get the most most occurring
+        2. Create a dictionary with the column and associated most occurring category
 9. Using the dict and the fillna function fill all NAN categorical values in the dataset.
 10. Ensure that there are no more NAN values in the categorical columns
 11. Get all the numeric columns that contain any NAN values
 12. Choose an appropriate method to fill the NAN values in the numeric columns
 13. Ensure that there are no more NAN values in the numeric columns
-14. Get a list of all categorical columns 
+14. Get a list of all categorical columns
 15. Encode all the categories here is a good [blog post](http://pbpython.com/categorical-encoding.html)
 16. Split the training data into X_train, Y_train
 17. Split the test data into X_test, Y_test
-18. Using the machine learning algorithms imported in 2 train and test each classifier and keep track of their accuracies. 
-
+18. Using the machine learning algorithms imported in 2 train and test each classifier and keep track of their accuracies.
+19. Use the Standard Scaler to scale all the attributes
+20. Utilize PCA on both the training and test set to try to improve the performance  
+21. Retrain the Random Forest and KNN classifiers 
+22. Use KFold Cross Validation to determine the best value to use for K in the KNN classifier 
+23. Retrain the KNN classifier
