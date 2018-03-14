@@ -10,20 +10,24 @@
 ```
 2. Import the machine learning algorithms from sklearn
 ```
-  from sklearn.linear_model import LogisticRegression
-  from sklearn.svm import SVC, LinearSVC
-  from sklearn.ensemble import RandomForestClassifier
-  from sklearn.neighbors import KNeighborsClassifier
-  from sklearn.naive_bayes import GaussianNB
-  from sklearn.linear_model import Perceptron
-  from sklearn.linear_model import SGDClassifier
-  from sklearn.tree import DecisionTreeClassifier
+    from sklearn.linear_model import LogisticRegression
+    from sklearn.svm import SVC, LinearSVC
+    from sklearn.ensemble import RandomForestClassifier
+    from sklearn.neighbors import KNeighborsClassifier
+    from sklearn.naive_bayes import GaussianNB
+    from sklearn.linear_model import Perceptron
+    from sklearn.linear_model import SGDClassifier
+    from sklearn.tree import DecisionTreeClassifier
+    from sklearn.cluster import KMeans
 ```
 3. Import some utility and metric classes
 ```
-  from sklearn.metrics import confusion_matrix
-  from sklearn.model_selection import train_test_split
-  from sklearn.metrics import accuracy_score
+    from sklearn.metrics import confusion_matrix
+    from sklearn.model_selection import train_test_split
+    from sklearn.metrics import accuracy_score
+    from sklearn.decomposition import PCA
+    from sklearn.preprocessing import StandardScaler
+    from sklearn.cross_validation import KFold, cross_val_score
 ```
 4. Load the data (in this case we have separate datasets for training and testing)
 5. Analyze the data to get a feel of the data
